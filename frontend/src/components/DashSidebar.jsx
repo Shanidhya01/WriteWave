@@ -1,12 +1,13 @@
 import { Sidebar } from "flowbite-react";
 import React, { useEffect, useState } from "react";
 import { HiAnnotation, HiArrowSmRight, HiChartPie, HiDocumentText, HiOutlineAnnotation, HiOutlineUserGroup, HiUser, HiUserGroup } from "react-icons/hi";
-import { Link, Navigate, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { signoutSuccess } from "../Redux/user/userSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 const DashSidebar = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [tab, setTab] = useState("");
   const dispatch = useDispatch();
   const { currentUser } = useSelector((state) => state.user);
@@ -24,12 +25,12 @@ const DashSidebar = () => {
       const res = await fetch(`/api/user/signout`, {
         method: "POST",
       });
-      navigate("/");
       const data = await res.json();
       if (!res.ok) {
         console.log(data.message);
       } else {
         dispatch(signoutSuccess());
+        navigate("/");
       }
     } catch (error) {
       console.log(error.message);

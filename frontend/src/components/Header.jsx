@@ -500,7 +500,7 @@ const Header = () => {
           className="enhanced-logo self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
         >
           <span className="logo-gradient px-4 py-2 rounded-xl text-white shadow-lg">
-            Shanidhya's
+            WriteWave
           </span>
           <span className="ml-2 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-bold">
             Blog

@@ -436,7 +436,7 @@ const FooterCom = () => {
                 className="self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white"
               >
                 <span className="footer-logo-gradient px-4 py-2 rounded-xl text-white shadow-lg">
-                  Shanidhya's
+                  WriteWave
                 </span>
                 <span className="ml-2 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-bold">
                   Blog
@@ -465,7 +465,7 @@ const FooterCom = () => {
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
                       </svg>
-                      Shanidhya's Blog
+                      WriteWave's Blog
                     </span>
                   </a>
                 </div>
@@ -524,7 +524,7 @@ const FooterCom = () => {
               <span className="text-sm">
                 © {new Date().getFullYear()} 
                 <span className="font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent ml-1">
-                  Shanidhya's Blog
+                  WriteWave's Blog
                 </span>
                 . Crafted with ❤️ and ☕
               </span>
