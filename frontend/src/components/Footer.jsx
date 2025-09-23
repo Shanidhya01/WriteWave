@@ -531,19 +531,19 @@ const FooterCom = () => {
             </div>
             
             <div className="social-icons-container">
-              <a href="#" className="social-icon facebook">
+              {/* <a href="#" className="social-icon facebook">
                 <BsFacebook size={20} />
-              </a>
-              <a href="#" className="social-icon instagram">
+              </a> */}
+              <a href="https://www.instagram.com/kshanidhya" className="social-icon instagram">
                 <BsInstagram size={20} />
               </a>
-              <a href="#" className="social-icon twitter">
+              <a href="https://x.com/kumar_shanidhya" className="social-icon twitter">
                 <BsTwitter size={20} />
               </a>
               <a href="https://github.com/Shanidhya01" target="_blank" rel="noopener noreferrer" className="social-icon github">
                 <BsGithub size={20} />
               </a>
-              <a href="#" className="social-icon dribbble">
+              <a href="https://shanidhyakumar.vercel.app/" className="social-icon dribbble">
                 <BsDribbble size={20} />
               </a>
             </div>
